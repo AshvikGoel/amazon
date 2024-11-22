@@ -1,0 +1,210 @@
+@font-face {
+  font-family: Ember;
+  src: url(AmazonEmberDisplay_Md.ttf);
+}
+* {
+  margin: 0;
+  font-family: Ember;
+}
+body {
+  width: 100%;
+}
+.head-bar {
+  background-color: #131921;
+  height: 60px;
+  width: 100%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  background-image: url(image.png);
+  height: 50px;
+  width: 128.73px;
+}
+.nav-logo {
+  padding: 0 7px 0 5px;
+  margin: 1px;
+}
+.border:hover {
+  border: 1px solid white;
+}
+.add-line1,
+.hello-user,
+.returns {
+  color: #cccccc;
+  font-size: 0.8rem;
+}
+.add-line2,
+.account-lists,
+.orders {
+  color: #ffffff;
+  font-size: 0.9rem;
+}
+#location-icon {
+  width: 18px;
+  height: 15px;
+}
+.nav-address,
+.account-bar,
+.order-bar {
+  margin: 5px 2px 5px 0;
+  padding: 0 9px 0 9px;
+}
+.add-line {
+  display: flex;
+  align-items: center;
+}
+.add-line1 {
+  margin: 0 0 0px 17px;
+}
+.nav-search {
+  display: flex;
+  align-items: center;
+  width: 1100px;
+  border-radius: 7px;
+  margin-left: 10px;
+}
+.nav-search:hover {
+  border: 4px solid orange;
+}
+.search-select {
+  padding: 0 0 0 5px;
+  background-color: #e3e3e3;
+  height: 43px;
+  width: 53px;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  text-align: center;
+  font-size: 17px;
+}
+.search-input {
+  height: 40px;
+  width: 100%;
+  padding-left: 10px;
+  font-size: 17px;
+  border: 0;
+  outline: none;
+}
+.search-icon {
+  background-color: #febd68;
+  display: flex;
+  height: 42px;
+  margin: 0 auto;
+  width: 55px;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  color: black;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.account-bar {
+  width: 150px;
+  height: 42px;
+  margin-left: 8px;
+}
+.cart i {
+  font-size: 30px;
+}
+.cart {
+  font: 0.85rem;
+  margin: 0 20px 0 8px;
+}
+.category-bar {
+  height: 40px;
+  background-color: #232f3e;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+}
+.category-bar a {
+  font-size: 18px;
+  padding: 9px;
+  margin: 0 10px 0 10px;
+}
+.ad {
+  position: absolute;
+  right: 0;
+}
+.hero {
+  background-image: url(hero_image.jpg);
+  height: 400px;
+  width: 100%;
+  background-size: cover;
+}
+.shop-section {
+  background-color: #e3e6e6;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.box {
+  height: 450px;
+  width: 23%;
+  margin: 15px 0 15px 0;
+  background-color: white;
+  padding: 20px 0 15px 0;
+}
+h2 {
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+.shop-now {
+  color: #007185;
+  font-size: 0.7rem;
+}
+.box-img {
+  background-size: cover;
+  height: 350px;
+  margin: 1rem 0 1rem 0;
+}
+.box-content {
+  margin: 0 1rem 0 1rem;
+}
+.foot-panel1 {
+  background-color: #37475a;
+  color: white;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.7rem;
+}
+.foot-panel2 {
+  background-color: #232f3e;
+  color: white;
+  display: flex;
+  height: 360px;
+  padding-top: 30px;
+  justify-content: space-evenly;
+}
+.foot-heading {
+  font-size: 0.8rem;
+  margin: 6px 0 14px 0;
+  font-weight: 700;
+}
+ul a {
+  font-size: 0.7rem;
+  color: #dddddd;
+  display: block;
+  margin: 0 0 10px;
+}
+ul a:hover {
+  text-decoration: underline white 1px;
+}
+.foot-panel3 {
+  background-color: #131a22;
+  padding: 30px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 5px;
+}
+.end-notes {
+  color: white;
+  background-color: #131a22;
+  text-align: center;
+  padding-bottom: 10px;
+}
